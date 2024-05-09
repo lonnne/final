@@ -21,8 +21,6 @@ def debug(message):
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     bot.send_message(message.chat.id,"приветствую я говоряший телеграмм бот пример моих возможностей в следуюшем собшении чтобы использовать мои возможности /tts если есть вопросы /help")
-    with open('tts.ogg', 'rb') as voice:
-        bot.send_voice(message.chat.id, voice.read())
 
 @bot.message_handler(commands=['help'])
 def handle_help(message):

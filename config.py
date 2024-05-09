@@ -10,9 +10,9 @@ IAM_TOKEN_PATH = f'{HOME_DIR}/creds/iam_token.txt'  # файл для хране
 FOLDER_ID_PATH = f'{HOME_DIR}/creds/folder_id.txt'  # файл для хранения folder_id
 BOT_TOKEN_PATH = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хранения bot_token
 
-BOT_TOKEN = "7000986103:AAEtQsp7WaWLLq2l1lJZLCndKZUKk4gKGfI"
-FOLDER_ID = "b1gguda9iv0ev79trqvm"
-IAM_TOKEN = "t1.9euelZrHl8ubycmPlpCVmI6Rz8yPl-3rnpWaxpeVyoqTm5aTy5XKi42SmM3l8_d_MBJO-e97ZjYr_N3z9z9fD07573tmNiv8zef1656Vms-Sk5vNjI7Pz42ZyJbOyJeO7_zF656Vms-Sk5vNjI7Pz42ZyJbOyJeOveuelZqJzsaJlpzJnZSbyZKZj8eblbXehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.7ijLyZOuQKMyyG2YF0yWpdLHASkjJwDrq9wEYcfe4cy2QQ1rH8X57CoNEQL1KG2RNUOZfNLLnUgq8a2rqOe8BA"
+BOT_TOKEN = BOT_TOKEN_PATH
+FOLDER_ID = FOLDER_ID_PATH
+IAM_TOKEN = IAM_TOKEN_PATH
 
 # лимиты для пользователя
 MAX_USER_STT_BLOCKS = 10  # 10 аудиоблоков
